@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    main{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: red;
+    }
+    
+}
+@layer components{
+    .banner{
+        @apply w-full grid grid-cols-1 md:grid-cols-3 justify-between text-center pt-10
+    }
+    .banner img{
+        @apply rounded-full
+    }
+    .banner-btn-primery{
+        @apply px-4 py-2 bg-blue-500 text-white rounded-sm
+    }
+    .banner-btn-secondery{
+        @apply px-4 py-2 bg-white  border border-blue-500 text-blue-500 rounded-sm
+    }
+    .statistics_info{
+        @apply w-full  relative bg-dashdash-pattern bg-center bg-no-repeat
+        flex flex-col md:flex-row  items-center justify-center
+    }
+    .card{
+        @apply w-[250px]  mx-[10px] py-[25px] px-[20px] bg-[#f7dfbb] text-center rounded-[15px]
+        font-bold text-lg
+    }
+    .whay-ai-section{
+        @apply bg-whay-ai  mt-[-20px] pt-10 
+    }
+    .explore-programm{
+        @apply  hidden border border-blue-600 md:px-5 py-2 float-left font-bold text-blue-600 rounded md:flex
+    }
+    .middle-menu{
+        @apply flex  grow leading-10 ml-4
+    }
+    .middle-items{
+        @apply flex gap-7
+    }
+    .middle-items li:hover{
+        @apply text-blue-800 cursor-pointer
+    }
+    .login-btn{
+       @apply px-5 py-2 bg-gray-100 text-blue-400 font-bold rounded-sm
+    }
+    .login-btn:hover{
+        @apply drop-shadow-lg
+    }
+    /* navbar login btn start */
+
+    /* navbar login btn end */
+    .login-inp{
+        @apply w-full  border border-blue-400 select-none px-3 py-2  rounded-sm
+    }
+    /* accordion component start */
+    .accordion{
+        @apply bg-[#e9e9e9] rounded-md w-[380px] cursor-pointer delay-500
+    }
+    .item{
+        @apply bg-white p-3 flex justify-between drop-shadow-lg gap-3
+    }
+    .content{
+        @apply bg-white overflow-hidden max-h-0 transition 
+        group-[.is-active]:max-h-full 
+        group-[.is-active]:p-3 
+        border 
+        border-blue-400
+
+    }
+    /* timeline design started */
+    .timeline{
+        @apply 
+        border-l-4 border-blue-400
+    }
+    .dot{
+        @apply
+        absolute top-5 -left-3.5
+        bg-blue-400 h-6 w-6
+        rounded-full
+        border-4 border-white
+    }
+    .timeline-date{
+        @apply
+        text-xs font-bold pb-3
+        opacity-40 tracking-widest
+    }
+    /* timeline design ended*/
+}

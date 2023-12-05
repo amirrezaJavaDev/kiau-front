@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ED691748-8535-416D-969D-A8013FFBF18F</title>
+    <defs>
+        <path d="M664,477 C658.48,477 654,481.48 654,487 C654,492.52 658.48,497 664,497 C669.52,497 674,492.52 674,487 C674,481.48 669.52,477 664,477 Z M664,495 C659.59,495 656,491.41 656,487 C656,482.59 659.59,479 664,479 C668.41,479 672,482.59 672,487 C672,491.41 668.41,495 664,495 Z M662,491.5 L668,487 L662,482.5 L662,491.5 Z" id="path-1"></path>
+    </defs>
+    <g id="PP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AI-for-kids-PP_Web" transform="translate(-654.000000, -477.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon/av/play_circle_filled_white_24px" fill="#196AE5" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+{
+    "accordion":[
+                    {
+                        "title":"Weekly Quizzes and Fun Exercises",
+                        "content":"Partake in regularly organized quizzes and fun exercises that enhance your learning.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/exercises.svg",
+                        "active":1
+                    },
+                    {
+                        "title":"Project-Based Learning",
+                        "content":"This course will let you work on several real-life AI projects that demand minimal coding expertise.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/real_life_app.svg"
+                    },
+                    {
+                        "title":"Industry Relevant Curriculum",
+                        "content":"The curriculum is designed by highly experienced professionals of AI. It is simple yet comprehensive, and perfect to teach AI for high school students.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/play.svg"
+                    },
+                    {
+                        "title":"Curated AI Demonstrations",
+                        "content":"Understand various applications of AI from mentors in simplified formats.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/ai-icon.svg"
+                    },
+                    {
+                        "title":"Virtual Mentor Pods",
+                        "content":"Learn and clarify doubts from mentors in small groups.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/mentor_pods.svg"
+                    },
+                    {
+                        "title":"Top Class Faculty and Mentors",
+                        "content":"Enable your children with practical insights from several experienced industry practitioners from top organizations.",
+                        "icon":"https://d1vwxdpzbgdqj.cloudfront.net/intro-to-ai/live_session.svg"
+                    }
+                ]
+}
